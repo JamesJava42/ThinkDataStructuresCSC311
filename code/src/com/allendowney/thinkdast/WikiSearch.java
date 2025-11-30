@@ -119,7 +119,7 @@ public class WikiSearch {
 
         for (String url : that.map.keySet()) {
             result.remove(url);
-        }
+        } 
         return new WikiSearch(result);
     }
 
