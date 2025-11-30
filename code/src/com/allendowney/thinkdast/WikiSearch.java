@@ -112,7 +112,7 @@ public class WikiSearch {
      * Computes the difference of two search results (MINUS operation).
      *
      * @param that
-     * @return New WikiSearch object.
+     * @return New WikiSearch object. 
      */
     public WikiSearch minus(WikiSearch that) {
         Map<String, Integer> result = new HashMap<String, Integer>(this.map);
