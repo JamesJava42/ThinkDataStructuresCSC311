@@ -154,7 +154,7 @@ public class WikiSearch {
             }
         };
 
-        Collections.sort(entries, comparator);
+        Collections.sort(entries, comparator); 
 
         return entries;
     }
