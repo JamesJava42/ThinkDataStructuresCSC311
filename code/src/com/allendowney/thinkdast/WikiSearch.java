@@ -150,7 +150,7 @@ public class WikiSearch {
         Comparator<Entry<String, Integer>> comparator = new Comparator<Entry<String, Integer>>() {
             @Override
             public int compare(Entry<String, Integer> entry1, Entry<String, Integer> entry2) {
-                return entry1.getValue() - entry2.getValue();
+                return entry1.getValue() - entry2.getValue(); 
             }
         };
 
